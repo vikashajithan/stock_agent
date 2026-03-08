@@ -1,0 +1,16 @@
+[project]
+name = "stock-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "pyautogen",
+    "autogen-ext",
+    "openai",
+    "yfinance",
+    "pandas",
+    "python-dotenv",
+    "tiktoken>=0.12.0",
+]
